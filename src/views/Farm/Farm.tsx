@@ -58,7 +58,7 @@ const Farm: React.FC = () => {
     <>
       <PageHeader
         icon={icon}
-        subtitle={`Deposit ${lpTokenName}  Tokens and earn ${earnTokenName}`}
+        subtitle={`Deposit ${lpTokenName}  Tokens and earn CROM`}
         title={name}
       />
       <StyledFarm>
@@ -78,7 +78,7 @@ const Farm: React.FC = () => {
         <Spacer size="lg" />
         <StyledInfo>
           ⭐️ Every time you stake and unstake LP tokens, the contract will
-          automagically harvest TC rewards for you!
+          automagically harvest CROM rewards for you!
         </StyledInfo>
         <Spacer size="md" />
         <StyledLink

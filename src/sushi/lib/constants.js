@@ -458,20 +458,20 @@ SLP Address on mainnet for reference
 
 // JUICYSWAP SETTINGS
 
-export const CHAIN_ID = 4
+export const CHAIN_ID = 97
 
 export const contractAddresses = {
   sushi: {
-    4: '0x6b43Ff8735c26f591cBf2F7B774Ea6235f982C1f',
+    97: '0x7e719Df587c6C95ce878DB258c30A0760811f54B',
   },
   masterChef: {
-    4: '0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153',
+    97: '0x0AfDF129cf404041e1262986697FC91F8DA0C3aa',
   },
   weth: {
-    4: '0xc778417e063141139fce010982780140aa0cd5ab',
+    97: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
   },
   xSushi: {
-    4: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
+    97: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
   }
 }
 
@@ -481,15 +481,16 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      4: '0x03e6c12ef405ac3f642b9184eded8e1322de1a9e', // LP Token Address
+      97: '0xF762Fc4596B37F991b47B08B7432b5f6e675863E', // LP Token Address
     },
     tokenAddresses: {
-      4: '0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa', // Token, i.e. "DAI"
+      97: '0x2C69A6E358829239A4CdF4340181E19F2e1AFBf6',
+      // 97: '0xB10656F27FBA79f31f9A1B110358bbD9C16F878b', // Token, i.e. "DAI"
     },
-    name: 'TCs Party!',
-    symbol: 'DAI-ETH LP',
-    tokenSymbol: 'DAI',
-    icon: '👑',
+    name: 'CROMs Field!',
+    symbol: 'VVS-CRO LP',
+    tokenSymbol: 'VVS',
+    icon: '🎃',
   },
 ]
 

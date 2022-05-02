@@ -8,7 +8,7 @@ const Nav: React.FC = () => {
         target="_blank"
         href="https://rinkeby.etherscan.io/address/0xF1c1a2C89a473d2C9b8eaC1728f99E4aBd612153#code"
       >
-        JuiceMaster Contract
+        Cromlech Contract
       </StyledLink>
       {/*<StyledLink
         target="_blank"

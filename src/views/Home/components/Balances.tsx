@@ -94,9 +94,9 @@ const Balances: React.FC = () => {
               <SushiIcon />
               <Spacer />
               <div style={{ flex: 1 }}>
-                <Label text="Your TC Balance" />
+                <Label text="Your CROM Balance" />
                 <Value
-                  value={!!account ? getBalanceNumber(sushiBalance) : 'Locked'}
+                  value={!!account ? getBalanceNumber(sushiBalance) : 'Unlock wallet'}
                 />
               </div>
             </StyledBalance>
@@ -105,7 +105,7 @@ const Balances: React.FC = () => {
         <Footnote>
           Pending harvest
           <FootnoteValue>
-            <PendingRewards /> TC
+            <PendingRewards /> CROM
           </FootnoteValue>
         </Footnote>
       </Card>
@@ -113,14 +113,14 @@ const Balances: React.FC = () => {
 
       <Card>
         <CardContent>
-          <Label text="Total TC Supply" />
+          <Label text="Total CROM Supply" />
           <Value
-            value={totalSupply ? getBalanceNumber(totalSupply) : 'Locked'}
+            value={totalSupply ? getBalanceNumber(totalSupply) : 'Unlock Wallet'}
           />
         </CardContent>
         <Footnote>
           New rewards per block
-          <FootnoteValue>100 TC</FootnoteValue>
+          <FootnoteValue>100 CROM</FootnoteValue>
         </Footnote>
       </Card>
     </StyledWrapper>

@@ -13,8 +13,8 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={logo} height={120} />}
-        title="TC Farm is Ready"
-        subtitle="Stake TcSwap LP tokens to claim your very own TC!"
+        title="Cromlech YieldFarm"
+        subtitle="Stake CRO LP Tokens and CROM!"
       />
 
       <Container>
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: TC-ETH LP token pool yields 4.8x more token
+        🏆<b>Pro Tip</b>: CROM-CRO LP token pool yields 4.8x more token
         rewards per block.
       </StyledInfo>
       <Spacer size="lg" />
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
           margin: '0 auto',
         }}
       >
-        <Button text="🔪 See the Menu" to="/farms" variant="secondary" />
+        <Button text="🔪 See the Pools" to="/farms" variant="secondary" />
       </div>
     </Page>
   )
