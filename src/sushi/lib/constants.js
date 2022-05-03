@@ -492,6 +492,21 @@ export const supportedPools = [
     tokenSymbol: 'VVS',
     icon: '🎃',
   },
+
+  {
+    pid: 1,
+    lpAddresses: {
+      97: '0xb51e4d3F60c8453AdCa52797F9FA1481A6E13A7A', // LP Token Address
+    },
+    tokenAddresses: {
+      97: '0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee',
+      // 97: '0xB10656F27FBA79f31f9A1B110358bbD9C16F878b', // Token, i.e. "DAI"
+    },
+    name: 'BOSSs Field!',
+    symbol: 'BUSD-CRO LP',
+    tokenSymbol: 'BUSD',
+    icon: '😎',
+  },
 ]
 
 

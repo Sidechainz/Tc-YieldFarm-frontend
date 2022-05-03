@@ -10,7 +10,7 @@ import useEarnings from '../../../hooks/useEarnings'
 import useReward from '../../../hooks/useReward'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 
-interface HarvestProps {
+interface HarvestProps { 
   pid: number
 }
 
@@ -31,7 +31,7 @@ const Harvest: React.FC<HarvestProps> = ({ pid }) => {
           <StyledCardActions>
             <Button
               disabled={!earnings.toNumber() || pendingTx}
-              text={pendingTx ? 'Collecting CROM' : 'Harvest'}
+              text={pendingTx ? 'Collecting CROM' : 'Take Profit'}
               onClick={async () => {
                 setPendingTx(true)
                 await onReward()
