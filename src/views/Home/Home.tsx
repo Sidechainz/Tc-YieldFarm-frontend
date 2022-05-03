@@ -10,9 +10,9 @@ import Balances from './components/Balances'
 
 const Home: React.FC = () => {
   return (
-    <Page>
+    <Page> 
       <PageHeader
-        /* icon={<img src={logo} height={120} />} */
+        icon={<img src={logo} height={120} />}
         title="Cromlech YieldFarm"
         subtitle="Stake CRO LP Tokens and CROM!"
       />
