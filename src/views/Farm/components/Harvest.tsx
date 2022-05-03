@@ -14,7 +14,7 @@ interface HarvestProps {
   pid: number
 }
 
-const Harvest: React.FC<HarvestProps> = ({ pid }) => {
+const Harvest: React.FC<HarvestProps> = ({ pid }) => { 
   const earnings = useEarnings(pid)
   const [pendingTx, setPendingTx] = useState(false)
   const { onReward } = useReward(pid)
